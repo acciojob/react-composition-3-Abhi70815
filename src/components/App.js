@@ -41,7 +41,7 @@ const App = () => {
   }
   console.log(visible);
   return (
-    <div>
+    <div    className='tooltip'>
       {/* Do not remove the main div */}
       {<h2 id="hover1" onMouseEnter={hoverinFunction}
         onMouseLeave={hoveroutFunction}>
