@@ -19,9 +19,7 @@ const Tooltip = ({text}) => {
     }
   return (
     
-    <div
-     className='tooltip'
-     >
+    <div>
      
         <div style={style}>{text}</div>
     </div>
