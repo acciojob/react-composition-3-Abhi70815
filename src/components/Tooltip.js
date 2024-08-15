@@ -23,7 +23,7 @@ const Tooltip = ({text}) => {
      className='tooltip'
      >
      
-        <div style={style}>{text}</div>
+        <p className='tooltip' style={style}>{text}</p>
     </div>
         
   )
